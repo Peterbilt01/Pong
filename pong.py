@@ -149,7 +149,7 @@ while run:
     for event in pygame.event.get():
         if event.type==pygame.QUIT:
             run=False
-            exit()
+            
         if event.type ==pygame.MOUSEBUTTONDOWN and live_ball==False:
             live_ball=True
             pong.reset(screen_width-60,screen_height/2+50)
